@@ -1,0 +1,1 @@
+crudPage('pinjaman', { addHref: 'pinjaman-baru.html', actions: [{ l: 'Tandai kembali', show: r => r.status === 'Dipinjam', fn: async r => { await DB.update('pinjaman', r.id, { status: 'Dikembalikan', tgl_kembali: r.tgl_kembali || today() }); toast('Barang dikembalikan'); } }] });
