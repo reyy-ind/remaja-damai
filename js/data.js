@@ -4,8 +4,8 @@
 const CONFIG = {
   ORG_NAME: 'Karang Taruna Remaja Damai',
   ORG_SHORT: 'REMAJA DAMAI',
-  API_URL: '',            // contoh: https://abcdxyz.supabase.co
-  API_KEY: '',            // anon public key dari Supabase
+  API_URL: 'https://cthuwplmbejulzyqyfmq.supabase.co',            // contoh: https://abcdxyz.supabase.co
+  API_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0aHV3cGxtYmVqdWx6eXF5Zm1xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA2Mjg2NzYsImV4cCI6MjEwNjIwNDY3Nn0.047g5ZUvr36iMHWNka2ciUC_XjAZSPZLH6fd6Mvmvno',            // anon public key dari Supabase
   HERO_IMAGE: 'img/hero-rumah.png',
   LOGO: 'img/logo.png'
 };
